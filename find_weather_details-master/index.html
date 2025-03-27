@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>find Weather</title>
+  <!-- adding icon -->
+  <link rel="icon" href="https://i.pinimg.com/736x/32/61/f0/3261f032b83648a7833ed1b5d9c45847.jpg" type="image/x icon">
+  <link rel="stylesheet" href="style.css">
+  <!-- bootstrap cdn -->
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <!-- jQuerry CDN -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+  <div>
+    <nav class="navbar navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Find the weather</a>
+      </div>
+  </div>
+  </nav>
+  <div class="jumbotron" id="jumb" style="padding: 10%;">
+    <h1 class="display-4"><span class="typed"></span></h1>
+    <p class="lead">By entering the city name you can find live weatger details of the place </p>
+    <div class="input-group mb-3">
+      <span class="input-group-text" id="basic-addon1">📍</span>
+      <input type="text" id="userinput" class="form-control" placeholder="Enter city name" aria-label="Username"
+        aria-describedby="basic-addon1">
+    </div>
+  </div>
+  <div>
+    <div id="res">
+    </div>
+    <script src="script.js"></script>
+    <!--output  card -->
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <!-- bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+</body>
+</html>
